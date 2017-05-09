@@ -30,6 +30,7 @@ setup(
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3.4",
     ],
+    setup_requires=['setuptools_scm'],
     install_requires=[
         "bravado-core >= 4.2.2",
         "yelp_bytes",
