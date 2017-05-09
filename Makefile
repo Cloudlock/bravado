@@ -23,3 +23,11 @@ clean:
 	@rm -rf .tox build dist docs/build *.egg-info
 	find . -name '*.pyc' -delete
 	find . -name '__pycache__' -delete
+
+# Cloudlock additions
+pr: test
+	@echo "PR target complete"
+
+upstream-merge: 
+	python sdist upload -r pypi-cl
+	@echo "Upstream merge target complete"
