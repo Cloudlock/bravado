@@ -35,7 +35,7 @@ setup(
         "yelp-bytes==0.4.4",
         "python-dateutil==2.8.2",
         "PyYAML==6.0",
-        "requests==2.31.0",
+        "requests==2.32.2",
         "six==1.16.0",
     ],
     extras_require={
